@@ -20,6 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: ./
+    - uses: ULL-ESIT-PL-1920/hello-world-javascript-action@v3
       with:
         milliseconds: 1000
